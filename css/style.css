@@ -1,0 +1,69 @@
+#my-flex-block {
+	width: 300px;
+	height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+	display: none;
+}
+.boxColor {
+	width: 100px;
+	height: 100px;
+}
+#pictures{
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+.imgs{
+    width: 33%;
+    height: auto;
+}
+.imgs img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+#Img1{
+    background: url(/img/2015.jpg);
+}
+
+#Img2{
+    background: url(img/unnamed.jpg);
+
+    
+}
+
+#Img3{
+    background: url("/img/vlna.jpg");
+}
+
+#Img4{
+    background: url("/img/IMG.jpg");
+}
+
+#Img5{
+    background: url("/img/100.jpg") ;
+}
+
+#Img6{
+    background-image: url("/img/12a.jpg");
+}
+#Img7{
+    background-image: url("/img/download.jpg");
+}
+#Img8{
+    background-image: url("/img/igor.jpg");
+}
+#Img9{
+    background-image: url("/img/PB1.jpg");
+}
